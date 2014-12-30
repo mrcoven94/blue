@@ -149,6 +149,16 @@ input {
 	font-size: 16px;
 }
 
+.btn-login {
+	margin-top: 15px;
+	border-radius: 50px;
+	margin-right: 10px;
+	top: 0px;
+	float: center;
+	font-size: 16px;
+
+}
+
 .btn-sub {
 	border-radius: 50px;
 }
@@ -331,3 +341,151 @@ input {
 	color: white;
 	font-size: 13px;
 }
+
+
+/*Login */
+.login-text {
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: none;
+    margin-bottom: 30px;
+    color: #000;
+}
+.login-page {
+    margin-top: 200px;
+}
+
+.login-text {
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: none;
+    margin-bottom: 30px;
+
+}
+ .login-page {
+  margin-top: 200px;
+}
+
+#login-bg {
+    background-attachment: scroll;
+    background-image: url(../img/quad.jpg);
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+    .bs-modal-sm {
+        margin-top: 10em;
+
+    }
+
+    .modal-content {
+        background: rgba(255, 255, 255, 0.7);
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+   .modal-body {
+        margin-top: 0.8em;
+        margin-bottom: 5em;
+
+    }
+
+    .login-text {
+        font-size: 50px;
+        font-weight: 100;
+        text-transform: none;
+        margin-bottom: 30px;
+        color: #000;
+    }
+    .login-page {
+        margin-top: 200px;
+}
+}
+@media(max-width:768px) {
+        .modal-content {
+        background: rgba(255, 255, 255, 0.7);
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /*login page */
+    
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+	
+.omb_login .omb_socialButtons a {
+	color: white; // In yourUse @body-bg 
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}
+
+
