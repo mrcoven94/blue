@@ -171,6 +171,10 @@ input {
 	padding-right: 15px;
 }
 
+.btn-login {
+    margin-top: -15%;
+}
+
 .btn-white {
 	background: white;
 	color: #2f2f2f;
