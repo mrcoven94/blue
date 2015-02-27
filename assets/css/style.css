@@ -2,35 +2,35 @@
 	1. GENERAL STRUCTURES
 ################################################################# */
 
-/* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Raleway:900,700,400);
+/* Import fonts*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
-    font-family: 'Raleway', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
-	color: #5a5a5a;
+	font-family: 'Montserrat', Arial, sans-serif;
+}
+body {
+	background: #fff;
+	margin: 0;
+	color: #43413e;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 700;
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
-    font-family: 'Raleway', sans-serif;
+p {
+	padding: 0;
+	margin-bottom: 12px;
+	font-family: 'Montserrat', Arial, sans-serif;
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 28px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 
 html,
@@ -47,7 +47,7 @@ body {
 	clear: both;
 }
 .centered {text-align: center}
-.mt {margin-top: 50px;}
+.mt {margin-top: 120px;}
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
 .mtb2 { margin-top: 100px; margin-bottom: 100px;}
@@ -80,10 +80,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -194,7 +194,7 @@ input {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -420,7 +420,7 @@ input {
 
 
     /*login page */
-    
+
 /*
     Note: It is best to use a less version of this file ( see http://css2less.cc
     For the media queries use @screen-sm-min instead of 768px.
@@ -437,14 +437,14 @@ input {
     text-align: center;
 	line-height: 300%;
 }
-	
+
 .omb_login .omb_socialButtons a {
-	color: white; // In yourUse @body-bg 
+	color: white; // In yourUse @body-bg
 	opacity:0.9;
 }
 .omb_login .omb_socialButtons a:hover {
     color: white;
-	opacity:1;    	
+	opacity:1;
 }
 .omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
 .omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
@@ -475,7 +475,7 @@ input {
 	background-color: white;
 	width: 3em;
 	text-align: center;
-}			
+}
 
 .omb_login .omb_loginForm .input-group.i {
 	width: 2em;
@@ -484,12 +484,10 @@ input {
     color: red;
 }
 
-	
+
 @media (min-width: 768px) {
     .omb_login .omb_forgotPwd {
         text-align: right;
 		margin-top:10px;
- 	}		
+ 	}
 }
-
-
